@@ -19,7 +19,7 @@ const isDevelopment = process.env.NODE_ENV === "development";
 
 const corsOptions = {
   origin: isDevelopment
-    ? "http://localhost:3000"
+    ? `http://localhost:5173`
     : process.env.PRODUCTION_CLIENT_URL,
   credentials: true,
 };
