@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "build",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"]
+    },
+    "resolveJsonModule": true
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}
